@@ -85,7 +85,7 @@ type Query {
 GraphQLModule.forRoot({
   typePaths: ['./**/*.graphql'],
   definitions: {
-    path: join(process.cwd(), 'src/graphql.ts'),
+    path: join(process.cwd(), 'src/gql.ts'),
   },
 })`;
   }
@@ -95,7 +95,7 @@ GraphQLModule.forRoot({
 GraphQLModule.forRoot({
   typePaths: ['./**/*.graphql'],
   definitions: {
-    path: join(process.cwd(), 'src/graphql.ts'),
+    path: join(process.cwd(), 'src/gql.ts'),
     outputAs: 'class',
   },
 })`;
